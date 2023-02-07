@@ -1,0 +1,140 @@
+.product {
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-ratings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-ratings > span {
+  font-weight: 500;
+  background-color: greenyellow;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+
+.product-ratings > button {
+  background-color: green;
+  border: none;
+  margin-left: 6px;
+  padding: 0px 6px;
+  border-radius: 5px;
+  color: white;
+}
+
+.product-detail-texts {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.product-price {
+  font-size: 24px;
+}
+
+.product-tax-option {
+  font-size: 12px;
+  color: gray;
+}
+
+.product-button {
+  border: none;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: #005dde;
+  color: white;
+  border-radius: 5px;
+}
+
+.product-description {
+  display: flex;
+  margin-left: 8px;
+  flex-direction: column;
+  gap: 8px;
+  flex: 2;
+}
+
+.product-description > h1 {
+  font-size: 22px;
+  margin: 0px;
+}
+
+.product-description > span {
+  line-height: 1;
+}
+
+.location-icon {
+  height: 15px;
+  margin-right: 4px;
+  color: red;
+}
+
+.taxi-icon {
+  color: yellow;
+  margin: 0px 4px;
+}
+
+.product-distance {
+  font-size: 12px;
+  color: #0071c2;
+}
+
+.product-title {
+  font-size: 20px;
+}
+
+.product-taxi-option {
+  background-color: rgb(209, 34, 34);
+  color: white;
+  padding: 3px;
+  width: max-content;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.product-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.product-includes {
+  font-size: 12px;
+}
+
+.cancel-option {
+  color: blue;
+}
+
+.product-cancel-option {
+  font-size: 12px;
+  color: #01800a;
+  font-weight: bold;
+}
+
+.product-cancel-option-subtitle {
+  font-size: 12px;
+  color: #008009;
+}
+
+.product-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}

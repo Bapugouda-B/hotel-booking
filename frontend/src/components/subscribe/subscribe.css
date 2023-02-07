@@ -1,0 +1,71 @@
+.subscribers-container {
+  width: 100%;
+  margin-top: 50px;
+  /* background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%); */
+  background-color: #6B695E;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: kanit;
+
+}
+
+.contact-container {
+  display: flex;
+}
+
+.user-contact {
+  padding: 30px 0px 30px 0px;
+  width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone-icon {
+  width: 20px;
+  height: 25px;
+  margin-top: 12px;
+}
+
+.number {
+  padding-left: 12px;
+  letter-spacing: 1px;
+  font-size: 8px;
+}
+
+.mail-icon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.mail-title{
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+
+.mail-input-container > input {
+  width: 300px;
+  height: 15px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.mail-input-container > button {
+  height: 35px;
+  background-color: #6B695E;
+  color: white;
+  font-weight: 500;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
